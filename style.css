@@ -1,0 +1,100 @@
+body {
+    background: rgb(255, 255, 255);
+}
+#web-dev {
+    background: #fbc531;
+}
+#graphic-design {
+    background: #e84118;
+}
+#contact {
+    background: #00a8ff;
+}
+#profile {
+    background: #4cd137;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.section,
+.section p,
+.section svg {
+    transition: 0.2s ease-in-out;
+}
+.section {
+    position: absolute;
+    background: grey;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(0.8);
+    color: white;
+    padding: 20px;
+    opacity: 0.3;
+}
+.section p {
+    margin: 0;
+    font-size: 1em;
+    margin-top: 47px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+.section svg {
+    margin-top: 8px;
+    height: 60px;
+    width: 60px;
+}
+
+.top {
+    top: 0%;
+    left: 40%;
+}
+.bottom {
+    left: 40%;
+    top: 65%;
+    transform: scale(1.3);
+    opacity: 1;
+}
+.bottom p {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+#web-dev.bottom p {
+    color: #fbc531;
+}
+#graphic-design.bottom p {
+    color: #e84118;
+}
+#contact.bottom p {
+    color: #00a8ff;
+}
+#profile.bottom p {
+    color: #4cd137;
+}
+.left {
+    top: 35%;
+    left: 0%;
+}
+.right {
+    top: 35%;
+    left: 80%;
+}
